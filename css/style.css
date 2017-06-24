@@ -363,13 +363,11 @@ ul.navbar-nav a {
     padding: 5px 10px 5px 10px;
     font-family: 'Lato Black', sans-serif;
     color: #ff1a36;
-
 }
 
 .s5-block-cont p {
     padding: 0 10px 0 10px;
     font-family: 'Lato Black', sans-serif;
-
 }
 
 .s5-block-cont a {
@@ -678,4 +676,12 @@ ul.navbar-nav a {
 .copyright {
     text-align: center;
     padding-top: 50px;
+}
+
+/*========== MAX WIDTH 768px ==========*/
+
+@media (max-width : 768px) {
+    button.navbar-toggle {
+        margin: 0;
+    }
 }
