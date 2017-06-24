@@ -202,7 +202,7 @@ ul.navbar-nav a {
     font-weight: bold;
 }
 
-.carousel {
+#aboutCarousel {
     background: #ffffff;
     width: 80%;
     text-align: center;
@@ -676,6 +676,26 @@ ul.navbar-nav a {
 .copyright {
     text-align: center;
     padding-top: 50px;
+}
+
+/*==================== MODALS ====================*/
+/*========== MURPHY'S ==========*/
+
+.clickable {
+    cursor: pointer
+}
+
+.modal-dialog {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.modal-content {
+    margin: 0 auto;
 }
 
 /*========== MAX WIDTH 768px ==========*/
