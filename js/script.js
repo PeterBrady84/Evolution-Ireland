@@ -2,7 +2,7 @@
 function autocollapse() {
     var navbar = $('#autocollapse');
     navbar.removeClass('collapsed'); // set standard view
-    if(navbar.innerHeight() > 100) // check if we've got 2 lines
+    if (navbar.innerHeight() > 50) // check if we've got 2 lines
         navbar.addClass('collapsed'); // force collapse mode
 }
 
@@ -12,7 +12,7 @@ $(window).on('resize', autocollapse);
 /*========== Smooth Scrolling ==========*/
 $(document).ready(function () {
     //language=JQuery-CSS
-    $('a[href*="#"]:not([href="#carousel-murphys"])').on('click', function (e) {
+    $('a[href*="#"]:not([href="#carousel-murphys"]):not([href="#carousel-cullens"])').on('click', function (e) {
         e.preventDefault();
 
         var target = this.hash,

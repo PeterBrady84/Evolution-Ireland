@@ -27,7 +27,7 @@ div.navbar-inverse {
 }
 
 div.navbar-header {
-    padding: 10px 30px;
+    padding: 10px 30px 0 30px;
 }
 
 div.navbar-header a img {
