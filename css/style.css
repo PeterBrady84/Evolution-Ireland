@@ -737,6 +737,21 @@ ul.navbar-nav a {
         margin: 0;
     }
 
+    #section2 {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    .sec2-art {
+        width: auto;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .logo img {
+        width: 500px;
+    }
+
     .s7-block {
         margin: 0;
     }
@@ -750,6 +765,25 @@ ul.navbar-nav a {
     .s7-cont{
         float: none;
         margin: 0 auto;
+    }
+}
+
+/*========== MAX WIDTH 568px ==========*/
+
+@media (max-width: 568px) {
+    #section2 {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    .sec2-art {
+        width: auto;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .logo img {
+        width: 300px;
     }
 }
 
@@ -809,7 +843,7 @@ ul.navbar-nav a {
     }
 
     .sec2-social p {
-        padding-bottom: 0px;
+        padding-bottom: 0;
         margin-bottom: 0;
         padding-top: 5px;
         font-size: 12px;
@@ -1082,7 +1116,7 @@ ul.navbar-nav a {
         margin: 10px;
     }
 
-    .s8-button send {
+    .s8-button .send {
         background-color: #000;
         border: none;
         margin-left: auto;
